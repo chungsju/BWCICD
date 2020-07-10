@@ -1,0 +1,7 @@
+{
+    "records": [],
+    "resources": [{
+        "location": "Service Descriptors/cicdtest.Resource-Resource.json",
+        "type": "generated"
+    }]
+}
