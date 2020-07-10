@@ -22,7 +22,7 @@
     <agentPort>8078</agentPort>
     <truststorePassword></truststorePassword>
     <agentAuth></agentAuth>
-    <agentHost>54.180.156.97</agentHost>
+    <agentHost>172.31.15.192</agentHost>
     <httpPort>9051</httpPort>
     <appNode>CICDtest-AppNode</appNode>
     <osgiPort></osgiPort>
