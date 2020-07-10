@@ -8,7 +8,7 @@ pipeline {
         stage('Preparing') {
             steps {
                 // Get some code from a GitHub repository
-                git 'http://chungsju:king2331@172.31.1.194:580/chungsju/bwcicd.git'
+                git 'https://chungsju:king2331@github.com/chungsju/BWCICD.git'
             }
         }
         stage('Test') {
@@ -18,12 +18,12 @@ pipeline {
         }
         stage('Package') {
             steps {
-                 sh "mvn clean package -f cicd3.application.parent/pom.xml"
+                 sh "mvn clean package -f CICDtest.application.parent/pom.xml"
             }
         }
         stage('Deploy') {
             steps {
-                sh "mvn install -f cicd3.application.parent/pom.xml"
+                sh "mvn install -f CICDtest.application.parent/pom.xml"
             }
         }
     }
