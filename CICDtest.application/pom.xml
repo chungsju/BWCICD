@@ -47,7 +47,7 @@
       <plugin>
         <groupId>com.tibco.plugins</groupId>
         <artifactId>bw6-maven-plugin</artifactId>
-        <version>2.6.0</version>
+        <version>2.7.0</version>
         <extensions>true</extensions>
         <configuration>
           <deployToAdmin>${deployToAdmin}</deployToAdmin>
@@ -84,7 +84,7 @@
       <plugin>
         <groupId>com.tibco.plugins</groupId>
         <artifactId>bw6-maven-plugin</artifactId>
-        <version>2.6.0</version>
+        <version>2.7.0</version>
       </plugin>
     </plugins>
   </reporting>
